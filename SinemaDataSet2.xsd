@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="SinemaDataSet2" targetNamespace="http://tempuri.org/SinemaDataSet2.xsd" xmlns:mstns="http://tempuri.org/SinemaDataSet2.xsd" xmlns="http://tempuri.org/SinemaDataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="SinemaConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="SinemaConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.NewProject.Properties.Settings.GlobalReference.Default.SinemaConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="tblMovieTableAdapter" GeneratorDataComponentClassName="tblMovieTableAdapter" Name="tblMovie" UserDataComponentName="tblMovieTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="SinemaConnectionString (Settings)" DbObjectName="Sinema.dbo.tblMovie" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT movieId, Name, releseDate, type FROM dbo.tblMovie</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="movieId" DataSetColumn="movieId" />
+              <Mapping SourceColumn="Name" DataSetColumn="Name" />
+              <Mapping SourceColumn="releseDate" DataSetColumn="releseDate" />
+              <Mapping SourceColumn="type" DataSetColumn="type" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="SinemaDataSet2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="SinemaDataSet2" msprop:Generator_UserDSName="SinemaDataSet2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblMovie" msprop:Generator_TableClassName="tblMovieDataTable" msprop:Generator_TableVarName="tabletblMovie" msprop:Generator_TablePropName="tblMovie" msprop:Generator_RowDeletingName="tblMovieRowDeleting" msprop:Generator_RowChangingName="tblMovieRowChanging" msprop:Generator_RowEvHandlerName="tblMovieRowChangeEventHandler" msprop:Generator_RowDeletedName="tblMovieRowDeleted" msprop:Generator_UserTableName="tblMovie" msprop:Generator_RowChangedName="tblMovieRowChanged" msprop:Generator_RowEvArgName="tblMovieRowChangeEvent" msprop:Generator_RowClassName="tblMovieRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="movieId" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnmovieId" msprop:Generator_ColumnPropNameInRow="movieId" msprop:Generator_ColumnPropNameInTable="movieIdColumn" msprop:Generator_UserColumnName="movieId" type="xs:int" />
+              <xs:element name="Name" msprop:Generator_ColumnVarNameInTable="columnName" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_UserColumnName="Name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="releseDate" msprop:Generator_ColumnVarNameInTable="columnreleseDate" msprop:Generator_ColumnPropNameInRow="releseDate" msprop:Generator_ColumnPropNameInTable="releseDateColumn" msprop:Generator_UserColumnName="releseDate" type="xs:dateTime" />
+              <xs:element name="type" msprop:Generator_ColumnVarNameInTable="columntype" msprop:Generator_ColumnPropNameInRow="type" msprop:Generator_ColumnPropNameInTable="typeColumn" msprop:Generator_UserColumnName="type">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

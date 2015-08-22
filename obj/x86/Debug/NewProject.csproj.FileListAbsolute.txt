@@ -1,0 +1,26 @@
+c:\users\emrepc\documents\visual studio 2010\Projects\NewProject\NewProject\obj\x86\Debug\NewProject.Form1.resources
+c:\users\emrepc\documents\visual studio 2010\Projects\NewProject\NewProject\obj\x86\Debug\NewProject.Properties.Resources.resources
+c:\users\emrepc\documents\visual studio 2010\Projects\NewProject\NewProject\obj\x86\Debug\NewProject.csproj.GenerateResource.Cache
+c:\users\emrepc\documents\visual studio 2010\Projects\NewProject\NewProject\bin\Debug\NewProject.exe
+c:\users\emrepc\documents\visual studio 2010\Projects\NewProject\NewProject\bin\Debug\NewProject.pdb
+c:\users\emrepc\documents\visual studio 2010\Projects\NewProject\NewProject\obj\x86\Debug\NewProject.exe
+c:\users\emrepc\documents\visual studio 2010\Projects\NewProject\NewProject\obj\x86\Debug\NewProject.pdb
+C:\Users\emrepc\Documents\Visual Studio 2010\Projects\NewProject\NewProject\obj\x86\Debug\NewProject.csprojResolveAssemblyReference.cache
+C:\Users\emrepc\Documents\Visual Studio 2010\Projects\NewProject\NewProject\obj\x86\Debug\NewProject.UyeKayit.resources
+C:\Users\emrepc\Documents\Visual Studio 2010\Projects\NewProject\NewProject\obj\x86\Debug\NewProject.AdminMenu.resources
+C:\Users\emrepc\Documents\Visual Studio 2010\Projects\NewProject\NewProject\obj\x86\Debug\NewProject.aEkle.resources
+C:\Users\emrepc\Documents\Visual Studio 2010\Projects\NewProject\NewProject\obj\x86\Debug\NewProject.SalonEkle.resources
+C:\Users\emrepc\Documents\Visual Studio 2010\Projects\NewProject\NewProject\obj\x86\Debug\NewProject.FilmEkle.resources
+C:\Users\emrepc\Documents\Visual Studio 2010\Projects\NewProject\NewProject\obj\x86\Debug\NewProject.SeansEkle.resources
+C:\Users\emrepc\Documents\Visual Studio 2010\Projects\NewProject\NewProject\bin\Debug\NewProject.exe.config
+C:\Users\emrepc\Documents\Visual Studio 2010\Projects\NewProject\NewProject\obj\x86\Debug\NewProject.FilmAra.resources
+C:\Users\emrepc\Documents\Visual Studio 2010\Projects\NewProject\NewProject\obj\x86\Debug\NewProject.KullanıcıMenu.resources
+C:\Users\emrepc\Documents\Visual Studio 2010\Projects\NewProject\NewProject\obj\x86\Debug\NewProject.FlmGuncll.resources
+C:\Users\emrepc\Documents\Visual Studio 2010\Projects\NewProject\NewProject\obj\x86\Debug\NewProject.Guncelle.resources
+C:\Users\emrepc\Documents\Visual Studio 2010\Projects\NewProject\NewProject\obj\x86\Debug\NewProject.SalonGncll.resources
+C:\Users\alpr3_000\Desktop\13253030Pro\NewProject\bin\Debug\NewProject.exe.config
+C:\Users\alpr3_000\Desktop\13253030Pro\NewProject\obj\x86\Debug\NewProject.exe
+C:\Users\alpr3_000\Desktop\13253030Pro\NewProject\obj\x86\Debug\NewProject.pdb
+C:\Users\Alper\Desktop\13253030Pro\NewProject\bin\Debug\NewProject.exe.config
+C:\Users\Alper\Desktop\13253030Pro\NewProject\obj\x86\Debug\NewProject.exe
+C:\Users\Alper\Desktop\13253030Pro\NewProject\obj\x86\Debug\NewProject.pdb
